@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.tribalfs.gmh_write_secure",
+  "applicationId": "com.tribalfs.gmhwritesecure",
   "variantName": "processReleaseResources",
   "elements": [
     {
