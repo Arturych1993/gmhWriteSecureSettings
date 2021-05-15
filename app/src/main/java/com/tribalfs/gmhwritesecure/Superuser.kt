@@ -11,7 +11,8 @@ object Superuser {
         try {
             Shell.Pool.SU.run(command!!, stdout, stderr, true)
         } catch (e: ShellDiedException) {
-            e.printStackTrace()
+            //e.printStackTrace()
+            return e.localizedMessage
         }
         if (stdout.isEmpty()) return null
         val stringBuilder = StringBuilder()

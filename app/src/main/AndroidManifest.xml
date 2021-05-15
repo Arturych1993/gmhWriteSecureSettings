@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tribalfs.gmhwritesecure">
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,5 +18,10 @@
             </intent-filter>
         </activity>
     </application>
+
+    <queries>
+        <package android:name="com.tribalfs.gmh"/>
+        <package android:name="com.tribalfs.n20umaxhz"/>
+    </queries>
 
 </manifest>
